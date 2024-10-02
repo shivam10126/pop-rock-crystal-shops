@@ -1,9 +1,8 @@
 "use client"
 
-import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ChevronDown, ChevronLeft, ChevronRight, Menu } from 'lucide-react'
+import { ChevronLeft, ChevronRight, Menu } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import image from "../assets/image.png"
@@ -15,7 +14,6 @@ import left2 from "../assets/left2.png"
 import mouse from "../assets/mouseIcon.png"
 
 export default function Hero() {
-  const [isOpen, setIsOpen] = useState(false)
 
   const NavItems = () => (
     <>
